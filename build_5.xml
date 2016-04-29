@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<project name="propertyStudy" default="example">
+<target name="example">
+      <copy file="1.txt" tofile="3.txt"/>
+	  <copy todir="dir_2">
+           <fileset dir="dir_1"/>
+      </copy>
+	  <copy file="1.txt" todir="dir_2"/>
+	  <delete file="2.txt"/>
+      <mkdir dir="build"/>
+</target>
+</project>

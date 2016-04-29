@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<project name="propertyStudy" default="example">
+<target name="example">
+      <move file="x.txt" tofile="y.txt"/>
+      <move file="x.txt" todir="dir_1"/>
+</target>
+</project>

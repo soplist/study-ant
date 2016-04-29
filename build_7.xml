@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<project name="propertyStudy" default="example">
+<target name="example">
+      <echo message="Hello,Amigo" file="logs/system.log" append="true"></echo>
+</target>
+</project>
